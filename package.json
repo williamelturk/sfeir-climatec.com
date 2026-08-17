@@ -1,0 +1,37 @@
+{
+  "name": "sfeir-climatec",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "deploy:prep": "node scripts/prepare-deploy.mjs",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "embla-carousel-autoplay": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
+    "lucide-react": "^0.525.0",
+    "next": "16.2.11",
+    "nodemailer": "^6.10.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-photo-album": "^3.1.0",
+    "tailwind-merge": "^3.3.1",
+    "yet-another-react-lightbox": "^3.25.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/nodemailer": "^6.4.17",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.11",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "yet-another-react-lightbox/styles.css";
+
+@theme {
+  /* Brand palette carried over from the original site */
+  --color-brand: #ffb703;
+  --color-brand-dark: #ff8f03;
+  --color-navy: #041230;
+  --color-navy-light: #181a2f;
+  --color-ink: #14141c;
+  --color-accent: #136aeb;
+  --color-mist: #e9eff4;
+  --color-steel: #8db3e4;
+
+  --font-sans: var(--font-open-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-rubik), var(--font-open-sans), ui-sans-serif,
+    system-ui, sans-serif;
+}
+
+body {
+  @apply bg-white text-ink antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
